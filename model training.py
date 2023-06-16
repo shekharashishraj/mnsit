@@ -21,4 +21,4 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 model.fit(train_images, train_labels, epochs=5, batch_size=32)
 
 #save the model to desired location
-model.save('//Desktop/MNIST/mnist_model.h5')
+model.save('//Desktop/MNISTmnsi/mnist_model.h5')
